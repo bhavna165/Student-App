@@ -1,0 +1,483 @@
+/* loader css */
+
+#loader{
+
+  /* z-index: 5; */
+  
+  display: none;
+  position: fixed;
+  top:0px;
+  right:0px;
+  width:100%;
+  height:100%;
+  background-color:#ffffff45;
+  
+  background-size: 50px;
+  background-repeat:no-repeat;
+  background-position:center;
+  z-index:10000000;
+  /* opacity: 0.4; */
+  /* filter: alpha(opacity=40); */
+}
+
+
+
+/* footer css */
+
+.footer{
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  background-color: #ce3e06;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  text-align: center;
+  background-color: #ce3e06;
+}
+.footer-content h3{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.footer-content p{
+    color: #fff;
+    font-weight: bolder;
+}
+
+.footer-content{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content h2{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.socials{
+  list-style: none;
+}
+.footer-bottom{
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+}
+.footer-left p{
+  padding-right: 20%;
+  color: #fff;
+}
+.footer-content ul{
+
+  display: flex;
+  line-height: 3rem;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 50px;
+
+}
+.socials i{
+  margin-right: 30px;
+}
+
+/* navbar */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+  font-family: 'Raleway', sans-serif;
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.navbar{
+  background-color:#ce3e06;
+  color: #fff;
+  
+
+  
+}
+.newcolor{
+  background-color: #ce3e06;
+}
+
+.navbar-brand{
+  font-size: 1.9rem;
+
+  
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom:1px solid #b5b5c4;
+}
+.navbar li{
+  color: white;
+}
+.navbar a{
+  color: aliceblue;
+  text-transform: capitalize;
+  font-size: 25px;
+  padding: 3px 3px;
+	margin: 15px 14px;
+}
+.navbar a:hover{
+  color: #f58e08;
+}
+.nav-link a:hover{
+  color: #ce3e06;
+}
+.local a{
+  font-size: 30px;
+}
+.navbar-toggler
+{
+  color: white;
+  background-color: transparent;
+
+}
+
+@media(max-width: 991px)
+{
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+  .menu_active{
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+
+#navbarSupportedContent{
+    float: right;
+}
+
+/* login */
+/* login*/
+#login  .borderline{
+  margin-top: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(92, 99,105,.2);
+
+  
+
+}
+#login .loginname{
+  
+  font-size:50px;
+  font-weight: bolder;
+}
+#login .button{
+  border-radius: 40px;
+    padding: 10px 40px;
+    background-color: #ce3e06;
+    color: #fff;
+    font-size: 27px;
+    line-height: 1.5;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+
+}
+#login .lab{
+  position: absolute;
+  background-color: #fff;
+  top: -10px;
+  left: 13px;
+  padding: 0 10px;
+  font-weight: bolder;
+
+}
+#login .start{
+  border-top: 5px solid #ce3e06;
+}
+#login .start h1{
+  color: #ce3e06;
+}
+#login .mt{
+  margin-top: 40px;
+}
+#login .last{
+  margin-bottom: 10px;
+}
+#login .box{
+  margin-bottom: 40px;
+}
+
+/* register */
+
+
+/*registeration css*/
+#Phoneno{
+  width: 70%;
+  margin-right: 8px;
+
+}
+
+
+#reg .button{
+  border-radius: 40px;
+    padding: 10px 40px;
+    background-color: #ce3e06;
+    color: #fff;
+    font-size: 27px;
+    line-height: 1.5;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+#reg .heading{
+  
+    font-size:50px;
+    font-weight: bolder;
+    color:#ce3e06;
+}
+#reg .para{
+  font-size:25px ;
+  font-weight: 200;
+  padding-top: .5rem!important;
+}
+
+#reg .lab{
+  position: absolute;
+    background-color: #fff;
+    top: -10px;
+    left: 13px;
+    padding: 0 10px;
+    font-weight: bolder;
+}
+
+#reg .mt{
+  margin-top: 40px;
+  
+}
+#reg .start{
+  margin-top: 30px;
+  
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(105, 92, 92, 0.2);
+
+}
+#reg .start1{
+  
+    border-top: 5px solid #ce3e06;
+}
+#reg .nob{
+  border-style: none;
+}
+#reg .box{
+  margin-bottom: 40px;
+}
+#reg .last{
+  margin-bottom: 10px;
+}
+.form-horizontal title{
+  color: red;
+
+}
+/* validation */
+p{
+  color: red;
+  text-align: left;
+}
+/* personal info */
+ 
+#reg .button{
+  border-radius: 40px;
+    padding: 10px 40px;
+    background-color: #ce3e06;
+    color: #fff;
+    font-size: 27px;
+    line-height: 1.5;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+#reg .heading{
+  
+    font-size:50px;
+    font-weight: bolder;
+    color:#ce3e06;
+}
+#reg .para{
+  font-size:25px ;
+  font-weight: 200;
+  padding-top: .5rem!important;
+}
+
+#reg .lab{
+  position: absolute;
+    background-color: #fff;
+    top: -10px;
+    left: 13px;
+    padding: 0 10px;
+    font-weight: bolder;
+}
+#reg .mt{
+  margin-top: 40px;
+  
+}
+#reg .start{
+  margin-top: 30px;
+  
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(105, 92, 92, 0.2);
+
+}
+#reg .start1{
+  border-top: 5px solid #ce3e06;
+}
+#reg .nob{
+  border-style: none;
+}
+#reg .box{
+  margin-bottom: 40px;
+}
+#reg .last{
+  margin-bottom: 10px;
+}
+.form-horizontal title{
+  color: red;
+
+}
+
+  
+
+
+/* home */
+#crsl .button{
+  border-radius: 40px;
+    padding: 10px 40px;
+    background-color: #ce3e06;
+    color: #fff;
+    font-size: 27px;
+    line-height: 1.5;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+
+}
+#crsl .image{
+    height: 550px;
+}
+
+/* Payment */
+
+
+
+/* -----IMAGE---- */
+
+#sem .image {
+    color: white;
+    height: 280px;
+    background: rgba(0, 0, 0, 0.764) url('./images/clg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    text-align: center;
+    position: relative;
+}
+
+#sem .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: xx-large;
+}
+
+
+/* -----BUTTON---- */
+
+#sem .btn1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(220, 137, 29) !important;
+}
+
+
+/* ------CARD----- */
+
+#sem .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#sem .row {
+    margin: 0 -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: rgba(201, 74, 24, 0.3); */
+    background-size: cover;
+    /* margin-bottom: 70prgb(154, 90, 61) */
+}
+
+#sem .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    #sem .column {
+        width: 300px;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #sem.column {
+        width: 400px;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+#sem .card {
+    box-shadow: 0px 0px 25px 0px rgba(73, 25, 4, 0.856);
+    padding: 30px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+#sem .card img {
+    border-radius: 100px;
+    margin-top: -65px;
+    width: 80px;
+    
+    margin-left: 120px;
+    margin-top: -50px;
+   
+}
+
